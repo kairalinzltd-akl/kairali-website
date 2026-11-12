@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img">
+  <defs>
+    <linearGradient id="sky-thailand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe0c4"/><stop offset="1" stop-color="#f2a97e"/>
+    </linearGradient>
+    <radialGradient id="glow-thailand" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff8ea" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff8ea" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine-thailand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky-thailand)"/>
+  <circle cx="880" cy="230" r="230" fill="url(#glow-thailand)"/>
+  <circle cx="880" cy="230" r="72" fill="#fff8ea" opacity="0.95"/>
+  <path d="M0 520 Q100 442 200 488 Q300 386 400 496 Q500 450 600 504 Q700 394 800 512 Q900 458 1000 520 Q1100 402 1200 488 Q1300 466 1400 496 L1200 700 L0 700 Z" fill="#1d4440" opacity="0.55"/>
+  <path d="M0 590 Q150 548 300 562 Q450 464 600 574 Q750 500 900 586 Q1050 536 1200 558 Q1350 452 1500 570 L1200 700 L0 700 Z" fill="#285a53" opacity="0.75"/>
+  <path d="M70 420 Q125 210 180 180 Q246 230 290 420 Z" fill="#1d4440" opacity="0.95"/><path d="M240 460 Q315 250 390 220 Q480 270 540 460 Z" fill="#285a53" opacity="0.95"/><path d="M570 440 Q635 230 700 200 Q778 250 830 440 Z" fill="#132e2b" opacity="0.95"/><path d="M780 470 Q860 260 940 230 Q1036 280 1100 470 Z" fill="#1d4440" opacity="0.95"/>
+  <rect x="0" y="600" width="1200" height="200" fill="#3f8a82"/>
+       <rect x="0" y="600" width="1200" height="200" fill="url(#shine-thailand)" opacity="0.5"/>
+  <rect width="1200" height="800" fill="url(#shine-thailand)" opacity="0.18"/>
+</svg>

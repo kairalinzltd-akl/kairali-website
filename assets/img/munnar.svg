@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img">
+  <defs>
+    <linearGradient id="sky-munnar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe6f2"/><stop offset="1" stop-color="#8fc4d8"/>
+    </linearGradient>
+    <radialGradient id="glow-munnar" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine-munnar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky-munnar)"/>
+  <circle cx="880" cy="230" r="230" fill="url(#glow-munnar)"/>
+  <circle cx="880" cy="230" r="72" fill="#ffffff" opacity="0.95"/>
+  <path d="M0 520 Q100 424 200 486 Q300 442 400 492 Q500 460 600 498 Q700 478 800 504 Q900 376 1000 510 Q1100 394 1200 516 Q1300 412 1400 482 L1200 700 L0 700 Z" fill="#2c5b46" opacity="0.55"/>
+  <path d="M0 590 Q150 530 300 560 Q450 520 600 570 Q750 510 900 580 Q1050 500 1200 590 Q1350 490 1500 560 L1200 700 L0 700 Z" fill="#3b7355" opacity="0.75"/>
+  
+  <rect x="0" y="600" width="1200" height="200" fill="#1f4534"/>
+  <rect width="1200" height="800" fill="url(#shine-munnar)" opacity="0.18"/>
+</svg>
