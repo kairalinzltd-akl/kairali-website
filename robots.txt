@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://livetheday.nz/sitemap.xml
+Sitemap: https://kairali.nz/sitemap.xml
