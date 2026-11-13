@@ -5,34 +5,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found | Kairali — Royal Oak, Auckland</title>
 <meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%230f3b2e'/><text x='50' y='68' font-size='54' font-family='Georgia,serif' fill='%23e2a83c' text-anchor='middle'>K</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="site">
-  <div class="wrap nav">
+
+<header class="site solid">
+  <div class="wrap">
     <a class="brand" href="index.html">
       <span class="mark">K</span>
-      <span class="name">Kairali<span class="sub">Royal Oak &middot; Auckland</span></span>
+      <span class="name">Kairali<span class="sub">Royal Oak · Auckland</span></span>
     </a>
-    <nav class="links"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
-    <div class="phone"><a href="tel:+6492133313">09 213 3313</a></div>
-  </div>
-</header>
-<section class="notfound">
-  <div class="wrap">
-    <p class="eyebrow">404</p>
-    <h1 style="font-family:var(--serif);font-size:clamp(32px,5vw,52px);color:var(--green);margin:0 0 14px">That page has left the table.</h1>
-    <p class="lede" style="margin-inline:auto">The link is old or mistyped. The menu, the address and the phone number are all still here.</p>
-    <p style="margin-top:26px"><a class="btn btn-solid" href="index.html">Back to the home page</a></p>
-  </div>
-</section>
-<footer class="site">
-  <div class="wrap">
-    <div class="base">
-      <span>&copy; 2026 Kairali NZ Ltd. All rights reserved.</span>
-      <span>1/754 Manukau Road, Royal Oak, Auckland 1023 &middot; 09 213 3313</span>
+    <nav class="links" id="links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">Our story</a>
+      <a href="contact.html">Visit us</a>
+    </nav>
+    <div class="cta">
+      <a class="btn sm" href="tel:+6492133313">09 213 3313</a>
+      <button class="menu-toggle" id="mt" aria-label="Menu" aria-expanded="false">☰</button>
     </div>
   </div>
-</footer>
+</header>
+
+<main>
+<section class="page-hero" style="background-image:url(assets/img/hero-2.jpg);min-height:78svh;display:flex;align-items:center">
+  <div class="wrap">
+    <p class="eyebrow">404</p>
+    <h1>That page is not on the menu</h1>
+    <p class="lede">The link has gone somewhere else. The kitchen is still here — seven days, 11.00 to 22.00.</p>
+    <div class="btn-row">
+      <a class="btn solid" href="index.html">Back to the home page</a>
+      <a class="btn ghost" href="menu.html">See the menu</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
